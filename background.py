@@ -20,7 +20,7 @@ def set_wallpaper(image_path):
         print(f"Error setting background: {e}")
 
 def main():
-    url = "https://raw.githubusercontent.com/argonorg/backgroundsetter/refs/heads/main/RadonBackground.png?token=GHSAT0AAAAAAC5MGPPTGWTIDEVZAH7VBJ5CZ4H5D4A"
+    url = "https://raw.githubusercontent.com/radonorg/backgroundsetter/refs/heads/main/radon.png"
     pictures_folder = os.path.join(os.environ['USERPROFILE'], "Pictures")
     save_path = os.path.join(pictures_folder, "DesktopBackground.png")
     download_image(url, save_path)

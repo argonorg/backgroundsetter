@@ -1,3 +1,3 @@
 @echo off
-nuitka --onefile --standalone --output-dir=dist background.py
+pyinstaller background.py
 pause
